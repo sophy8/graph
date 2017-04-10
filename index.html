@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body bgcolor="lightblue" id="body" alink="white" vlink="lightgreen">
+<h2 style="text-align:center; color:darkgreen;">Лабораторна робота №2</h2>
+ Початкове значення:
+                        <input type="text" id="startInput" />
+                      Кінцеве значення:
+                        <input type="text" id="stopInput" />
+<!--
+                        Точність:
+                        <input type="text" id="accuracyInput" />
+-->
+
+ <canvas id="can" width="1050" height="500"  style="border:1px solid black; color:red; "></canvas>
+  <input type="button" value="Зробити крок" style="background-color:green; color:white;" onclick="makeStep(25,25,25)" id="stepButton">
+ <input type="button" value="Cкинути" onclick="reset()" style="background-color:yellow;">
+                        <input type="button"  onclick="copy()" style="background-color:blue; color:white;">Copy</button>
+                         <p align="center">
+                        <textarea rows="10" cols="50" id="otv" readonly="1"></textarea>
+                         <textarea rows="10" cols="50" id="tv" ></textarea>
+                          <textarea rows="10" cols="50" id="ta" ></textarea>
+                    </p>
+
+ <script src="js/9.js"> 
+     
+ 
+</script>
+
+
+
+
+ 
+</body>
+</html>
